@@ -29,17 +29,21 @@ Now when we analyse the networktab in the developer tools option, we can see tha
 
 Now we will try another method to confirm this.
 
-We have an HTML code that we have developed 
+We have an HTML code that we have developed and save as a HTML file 
 
 <html>
     <head>
         <title>Clickjack test page</title>
     </head>
     <body>
+<p> Website is vulnerable to Clickjacking </p/>
         <iframe src="http://labs.hacktify.in/HTML/clickjacking_lab/lab_1/lab_1.php
 " width="500" height="500"></iframe>
     </body>
 </html>
 
+And once you save the file and open in the browser and here is the result 
+
+<img width="324" alt="image" src="https://github.com/neostardustdr/hacktify/assets/121484808/31054142-4748-4449-9cdb-9783704d9361">
 
 
