@@ -23,3 +23,23 @@ Now we are going to check the lab and see if the lab is vulnerable to Clickjacki
 
 <img width="1100" alt="image" src="https://github.com/neostardustdr/hacktify/assets/121484808/d26fa08c-8a2b-468a-b486-9d1ef2291509">
 
+Now when we analyse the networktab in the developer tools option, we can see that there is no Xfame protection enabled so we can think that this site might be vulnerable to Clickjacking 
+
+<img width="1156" alt="image" src="https://github.com/neostardustdr/hacktify/assets/121484808/cd7a827a-a008-46a6-adfd-e5c7a4c44e49">
+
+Now we will try another method to confirm this.
+
+We have an HTML code that we have developed 
+
+<html>
+    <head>
+        <title>Clickjack test page</title>
+    </head>
+    <body>
+        <iframe src="http://labs.hacktify.in/HTML/clickjacking_lab/lab_1/lab_1.php
+" width="500" height="500"></iframe>
+    </body>
+</html>
+
+
+
