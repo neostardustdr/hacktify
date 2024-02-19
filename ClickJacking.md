@@ -23,7 +23,7 @@ Now we are going to check the lab and see if the lab is vulnerable to Clickjacki
 
 <img width="1100" alt="image" src="https://github.com/neostardustdr/hacktify/assets/121484808/d26fa08c-8a2b-468a-b486-9d1ef2291509">
 
-Now when we analyse the networktab in the developer tools option, we can see that there is no Xfame protection enabled so we can think that this site might be vulnerable to Clickjacking 
+Now when we analyse the networktab in the developer tools option, we can see that there is no Xfame protection enabled; also no xframe-options availble so we can think that this site might be vulnerable to Clickjacking 
 
 <img width="1156" alt="image" src="https://github.com/neostardustdr/hacktify/assets/121484808/cd7a827a-a008-46a6-adfd-e5c7a4c44e49">
 
@@ -42,8 +42,33 @@ We have an HTML code that we have developed and save as a HTML file
     </body>
 </html>
 
-And once you save the file and open in the browser and here is the result 
+<p>And once you save the file and open in the browser and here is the result</p> 
 
 <img width="324" alt="image" src="https://github.com/neostardustdr/hacktify/assets/121484808/31054142-4748-4449-9cdb-9783704d9361">
+
+
+Another way is using https://samy.pl/quickjack/quickjack.html
+
+When we put the target website and click on go we get the below result 
+
+
+Hide QuickJack Frame (clickjacking only): This feature likely hides the frame used in a clickjacking attack to make it appear as though the user is interacting with the legitimate page while actually interacting with a hidden malicious frame.
+
+Prevent Frame Breakouts (FF only): This feature may prevent the framed content from breaking out of the frame in Firefox (FF), thereby confining it to the intended frame and preventing it from hijacking the entire browser window.
+
+Continue Jacking after First Click: This option likely allows the clickjacking attack to continue even after the user has clicked on something, possibly to further manipulate the user's interactions without their knowledge.
+
+Prevent Clicks (slice only): This feature likely prevents clicks on the sliced portions of a web page, which could be used to prevent users from interacting with specific elements targeted by the clickjacking attack.
+
+Resize 2nd page to 100% (slice only): This option may resize the second page (presumably the one being manipulated) to 100% of the viewport, ensuring that it covers the entire visible area and making it more convincing to the user.
+
+Hide Referrer (requires redirection package): This feature hides the referrer information that the browser sends when navigating from one page to another. This can be used to prevent the attacker from seeing where the traffic is coming from.
+
+Redirect Browser (slice only): This option likely redirects the user's browser to a different page or URL after the clickjacking attack has been executed, possibly to further manipulate the user or to cover up the attack.
+
+Another way is to use https://securityheaders.com we can see that there is no xframe options availble 
+
+<img width="1019" alt="image" src="https://github.com/neostardustdr/hacktify/assets/121484808/6682a7f2-6abd-4f92-ba3c-03213a0583be">
+
 
 
