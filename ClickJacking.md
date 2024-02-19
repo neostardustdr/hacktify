@@ -15,3 +15,11 @@ Clickjacking based vulnerabilities are one of the simple bugs to find and are cl
     Clickjacking on Sensitive Pages
 
 Clickjacking on Non-Sensitive Pages are generally considered as Informational and categorized as P5 vulnerability where-as Clickjacking on Sensitive Pages are categorized as P4. Clickjacking on sensitive pages can also increase the impact of account takeover and hence can sometimes go up to P3 category.
+
+<h1> LABS </h1>
+Now we are going to check the lab and see if the lab is vulnerable to Clickjacking or not
+
+
+
+<img width="1100" alt="image" src="https://github.com/neostardustdr/hacktify/assets/121484808/d26fa08c-8a2b-468a-b486-9d1ef2291509">
+
