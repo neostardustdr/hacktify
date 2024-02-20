@@ -10,17 +10,23 @@ The severity of HTML Injection can be categorized as P4 bug with a CVSS score of
 
 <h1> Labs </h1
 
-
+one 
 
 <img width="676" alt="image" src="https://github.com/neostardustdr/hacktify/assets/121484808/9344d760-1d23-401e-bed3-5ee53790f4be">
 
 
+2
 <img width="952" alt="image" src="https://github.com/neostardustdr/hacktify/assets/121484808/4d9a4ba2-7179-4a16-8ba3-8b104b81e5c8">
 
+
+3 
 ![image](https://github.com/neostardustdr/hacktify/assets/121484808/375803ca-5dfe-4582-8d4b-800ce07303ef)
+
+4
 
 ![image](https://github.com/neostardustdr/hacktify/assets/121484808/f52e17c2-85bd-41f3-bc2b-7c29b73023d1)
 
+5
 ![image](https://github.com/neostardustdr/hacktify/assets/121484808/18c7460c-5a71-4925-be90-b1dbd98b0ed3)
 
 
